@@ -1,15 +1,36 @@
-# Replication-Package-Do-voters-use-information-on-candidates---Public-Choice
+# Replication Package: Do voters use information on candidates?
 
-This is the replication package for the paper "Do voters use information on candidates? Experimental evidence from a recent election" published on Public Choice, 2025 by Emma Galli, Giampaolo Garzarelli (Corresponding Author), Gabriele Pinto and Massimo Pulejo.
+This repository contains the replication materials for the paper:
 
-To ask inquiries regarding the replication package please contact Gabriele Pinto gabriele_pintorm@hotmail.com
+"Do voters use information on candidates? Experimental evidence from a recent election"
+Published in Public Choice (2025)
+Authors: Emma Galli, Giampaolo Garzarelli (Corresponding Author), Gabriele Pinto, and Massimo Pulejo
 
-**important: to respect upload limits of github, the AVQ data have been uploaded in a separate compressed file (dataset.rar
-), you should download it and place the content under the "dataset" folder in the main folder.
+## Contact
 
-The analysis has been run in Python, besides the raw data of the survey and other relevant data placed in the various folder, you can find two notebooks that guides you step-by-step trough the analysis.
+For any questions regarding this replication package, please contact:
+📧 Gabriele Pinto – gabriele_pintorm@hotmail.com
 
-codes//1_data_cleaning_REPLICATION.ipynb that contains the code that works on the original survey data and create the file "dataset_complete.csv" (in the folder dataset)
+## Data Availability
 
-codes//2_reg_analysis_REPLICATION.ipynb that contains all the analysis and the code to produce the tables and the figures.
+⚠️ Important: Due to GitHub upload limits, the AVQ dataset is provided as a separate compressed file:
 
+File: dataset.rar
+
+After downloading, extract its contents and place them inside the dataset/ folder located in the repository’s root directory.
+
+## Structure and Usage
+
+The analysis is conducted in Python. In addition to the raw survey data and supplementary files (organized in dedicated folders), the repository provides two Jupyter notebooks that guide you step by step through the replication process:
+
+### Data Cleaning
+
+Notebook: codes/1_data_cleaning_REPLICATION.ipynb
+
+Purpose: Cleans the original survey data and generates dataset_complete.csv (stored in the dataset/ folder).
+
+### Regression Analysis
+
+Notebook: codes/2_reg_analysis_REPLICATION.ipynb
+
+Purpose: Performs all regression analyses and generates the tables and figures reported in the paper.
